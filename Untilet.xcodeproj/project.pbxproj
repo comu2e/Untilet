@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		097B883384C6999E091994A5 /* Pods_UntiletUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3755E1CAA71F00CCF91F7E25 /* Pods_UntiletUITests.framework */; };
+		0BAB44DA6BAB06AB0F209EC3 /* Pods_Untilet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC7B32B526B12C695DA2A20 /* Pods_Untilet.framework */; };
+		578365424A3BD08911ADA832 /* Pods_UntiletTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E191E429D849ADFC5AAB82 /* Pods_UntiletTests.framework */; };
 		DA3749471DEC713F000124CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3749461DEC713F000124CF /* AppDelegate.swift */; };
 		DA3749491DEC713F000124CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3749481DEC713F000124CF /* ViewController.swift */; };
 		DA37494C1DEC713F000124CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA37494A1DEC713F000124CF /* Main.storyboard */; };
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30EF9FF0BA5E494C9529D531 /* Pods-UntiletUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UntiletUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UntiletUITests/Pods-UntiletUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3755E1CAA71F00CCF91F7E25 /* Pods_UntiletUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UntiletUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC7B32B526B12C695DA2A20 /* Pods_Untilet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Untilet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B8F62696A5D779B7423F77 /* Pods-UntiletUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UntiletUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UntiletUITests/Pods-UntiletUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B880483845E165EE2A06863 /* Pods-Untilet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Untilet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Untilet/Pods-Untilet.release.xcconfig"; sourceTree = "<group>"; };
+		97E68ED40C56F32426F592DE /* Pods-Untilet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Untilet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Untilet/Pods-Untilet.debug.xcconfig"; sourceTree = "<group>"; };
+		D2E191E429D849ADFC5AAB82 /* Pods_UntiletTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UntiletTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60F9D236F9FCBD22FB01A1B /* Pods-UntiletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UntiletTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UntiletTests/Pods-UntiletTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DA3749431DEC713F000124CF /* Untilet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Untilet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3749461DEC713F000124CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA3749481DEC713F000124CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		DA3749621DEC713F000124CF /* UntiletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UntiletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3749661DEC713F000124CF /* UntiletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UntiletUITests.swift; sourceTree = "<group>"; };
 		DA3749681DEC713F000124CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D79DD411A35063B42DE302 /* Pods-UntiletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UntiletTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UntiletTests/Pods-UntiletTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BAB44DA6BAB06AB0F209EC3 /* Pods_Untilet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				578365424A3BD08911ADA832 /* Pods_UntiletTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				097B883384C6999E091994A5 /* Pods_UntiletUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F426932261A747400ED3DF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97E68ED40C56F32426F592DE /* Pods-Untilet.debug.xcconfig */,
+				7B880483845E165EE2A06863 /* Pods-Untilet.release.xcconfig */,
+				D60F9D236F9FCBD22FB01A1B /* Pods-UntiletTests.debug.xcconfig */,
+				F5D79DD411A35063B42DE302 /* Pods-UntiletTests.release.xcconfig */,
+				74B8F62696A5D779B7423F77 /* Pods-UntiletUITests.debug.xcconfig */,
+				30EF9FF0BA5E494C9529D531 /* Pods-UntiletUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ACCFEBAC1376A90D1B980FCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EC7B32B526B12C695DA2A20 /* Pods_Untilet.framework */,
+				D2E191E429D849ADFC5AAB82 /* Pods_UntiletTests.framework */,
+				3755E1CAA71F00CCF91F7E25 /* Pods_UntiletUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DA37493A1DEC713F000124CF = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				DA37495A1DEC713F000124CF /* UntiletTests */,
 				DA3749651DEC713F000124CF /* UntiletUITests */,
 				DA3749441DEC713F000124CF /* Products */,
+				8F426932261A747400ED3DF0 /* Pods */,
+				ACCFEBAC1376A90D1B980FCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA37496B1DEC713F000124CF /* Build configuration list for PBXNativeTarget "Untilet" */;
 			buildPhases = (
+				125F482968FC0FF255C27B99 /* [CP] Check Pods Manifest.lock */,
 				DA37493F1DEC713F000124CF /* Sources */,
 				DA3749401DEC713F000124CF /* Frameworks */,
 				DA3749411DEC713F000124CF /* Resources */,
+				80C16D70D8514EAFBA642951 /* [CP] Embed Pods Frameworks */,
+				2324D32D0A242117E5DE1798 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA37496E1DEC713F000124CF /* Build configuration list for PBXNativeTarget "UntiletTests" */;
 			buildPhases = (
+				FBCA0B22B054D2DE6B9029C3 /* [CP] Check Pods Manifest.lock */,
 				DA3749531DEC713F000124CF /* Sources */,
 				DA3749541DEC713F000124CF /* Frameworks */,
 				DA3749551DEC713F000124CF /* Resources */,
+				76464F84EDBC29E06E8E4657 /* [CP] Embed Pods Frameworks */,
+				EC5D63721724F6567F59E651 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA3749711DEC713F000124CF /* Build configuration list for PBXNativeTarget "UntiletUITests" */;
 			buildPhases = (
+				3FC8B980CC98E0AEC514EA8F /* [CP] Check Pods Manifest.lock */,
 				DA37495E1DEC713F000124CF /* Sources */,
 				DA37495F1DEC713F000124CF /* Frameworks */,
 				DA3749601DEC713F000124CF /* Resources */,
+				802698FDB722D8364D6A58BC /* [CP] Embed Pods Frameworks */,
+				94E79528CCD9EF700A31604E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +242,7 @@
 				TargetAttributes = {
 					DA3749421DEC713F000124CF = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6N5NL3GL4U;
 						ProvisioningStyle = Automatic;
 					};
 					DA3749561DEC713F000124CF = {
@@ -253,6 +303,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		125F482968FC0FF255C27B99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2324D32D0A242117E5DE1798 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Untilet/Pods-Untilet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FC8B980CC98E0AEC514EA8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		76464F84EDBC29E06E8E4657 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UntiletTests/Pods-UntiletTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		802698FDB722D8364D6A58BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UntiletUITests/Pods-UntiletUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80C16D70D8514EAFBA642951 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Untilet/Pods-Untilet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94E79528CCD9EF700A31604E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UntiletUITests/Pods-UntiletUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC5D63721724F6567F59E651 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UntiletTests/Pods-UntiletTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBCA0B22B054D2DE6B9029C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DA37493F1DEC713F000124CF /* Sources */ = {
@@ -410,8 +598,10 @@
 		};
 		DA37496C1DEC713F000124CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97E68ED40C56F32426F592DE /* Pods-Untilet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6N5NL3GL4U;
 				INFOPLIST_FILE = Untilet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Untilet.Untilet;
@@ -422,8 +612,10 @@
 		};
 		DA37496D1DEC713F000124CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B880483845E165EE2A06863 /* Pods-Untilet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6N5NL3GL4U;
 				INFOPLIST_FILE = Untilet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Untilet.Untilet;
@@ -434,6 +626,7 @@
 		};
 		DA37496F1DEC713F000124CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D60F9D236F9FCBD22FB01A1B /* Pods-UntiletTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +641,7 @@
 		};
 		DA3749701DEC713F000124CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5D79DD411A35063B42DE302 /* Pods-UntiletTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +656,7 @@
 		};
 		DA3749721DEC713F000124CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74B8F62696A5D779B7423F77 /* Pods-UntiletUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = UntiletUITests/Info.plist;
@@ -475,6 +670,7 @@
 		};
 		DA3749731DEC713F000124CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30EF9FF0BA5E494C9529D531 /* Pods-UntiletUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = UntiletUITests/Info.plist;
@@ -505,6 +701,7 @@
 				DA37496D1DEC713F000124CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA37496E1DEC713F000124CF /* Build configuration list for PBXNativeTarget "UntiletTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +710,7 @@
 				DA3749701DEC713F000124CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA3749711DEC713F000124CF /* Build configuration list for PBXNativeTarget "UntiletUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +719,7 @@
 				DA3749731DEC713F000124CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
