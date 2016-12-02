@@ -7,6 +7,7 @@ target 'Untilet' do
   pod 'Alamofire'
   pod 'SwiftyJSON'
   pod 'Unbox'
+pod 'KDCircularProgress'
 # Pods for Untilet
 
   target 'UntiletTests' do

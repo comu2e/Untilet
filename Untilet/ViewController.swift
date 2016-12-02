@@ -9,10 +9,12 @@
 import UIKit
 import Alamofire
 import SwiftyJSON
-
+import KDCircularProgress
 class ViewController: UIViewController {
     //クラス変数
 //    var __data__:NSDictionary!
+    var percentage:Int! = 0
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,11 +22,17 @@ class ViewController: UIViewController {
         LoadAPI()
     }
 
-    @IBOutlet weak var valueLabel: UILabel!
+    @IBOutlet weak var progressBar: KDCircularProgress!
+    
     
     @IBAction func LoadAPI_button(_ sender: AnyObject) {
         LoadAPI()
     }
+    
+    
+    @IBOutlet weak var valueLabel: UILabel!
+
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -74,6 +82,36 @@ class ViewController: UIViewController {
             self.valueLabel.text = leatestValue.description
             }
         
+        }
+        func sample_bar(){
+            let progress = KDCircularProgress(frame: CGRect(x: 0, y: 0, width: 300, height: 300))
+            progress.startAngle = -90
+            progress.progressThickness = 0.2
+            progress.trackThickness = 0.6
+            progress.clockwise = true
+            progress.gradientRotateSpeed = 2
+            progress.roundedCorners = false
+            progress.glowMode = .forward
+            progress.glowAmount = 0.9
+            progress.set(colors: UIColor.cyan ,UIColor.white, UIColor.magenta, UIColor.white, UIColor.orange)
+            progress.center = CGPoint(x: view.center.x, y: view.center.y + 25)
+            view.addSubview(progress)
+        }
+        
+        func judge_value(value:Int)->Int!{
+            var return_val:Int!
+            switch value{
+            case let v where v < 390:
+                return_val = 10
+            case let v where 390<v && v<630:
+                return_val =  10 * (value - 390) * 4/100
+            case let v where 630 <= v:
+                return_val =  70+(value-390) * 10/100
+            default:
+                print("error")
+            }
+            return return_val
+
         }
 }
 }
