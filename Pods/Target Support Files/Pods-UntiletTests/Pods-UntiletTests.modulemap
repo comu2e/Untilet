@@ -1,0 +1,6 @@
+framework module Pods_UntiletTests {
+  umbrella header "Pods-UntiletTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
