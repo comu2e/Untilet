@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		097B883384C6999E091994A5 /* Pods_UntiletUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3755E1CAA71F00CCF91F7E25 /* Pods_UntiletUITests.framework */; };
 		0BAB44DA6BAB06AB0F209EC3 /* Pods_Untilet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC7B32B526B12C695DA2A20 /* Pods_Untilet.framework */; };
+		3F60B4321DF293C400170871 /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F60B4311DF293C400170871 /* logo2.png */; };
+		3F69C9791DF2A1E40059FFAD /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F69C9781DF2A1E40059FFAD /* logo1.png */; };
+		3F69C97B1DF2B17E0059FFAD /* hana.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F69C97A1DF2B17E0059FFAD /* hana.png */; };
 		578365424A3BD08911ADA832 /* Pods_UntiletTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E191E429D849ADFC5AAB82 /* Pods_UntiletTests.framework */; };
 		DA3749471DEC713F000124CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3749461DEC713F000124CF /* AppDelegate.swift */; };
 		DA3749491DEC713F000124CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3749481DEC713F000124CF /* ViewController.swift */; };
@@ -39,6 +42,9 @@
 /* Begin PBXFileReference section */
 		30EF9FF0BA5E494C9529D531 /* Pods-UntiletUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UntiletUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UntiletUITests/Pods-UntiletUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3755E1CAA71F00CCF91F7E25 /* Pods_UntiletUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UntiletUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F60B4311DF293C400170871 /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
+		3F69C9781DF2A1E40059FFAD /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
+		3F69C97A1DF2B17E0059FFAD /* hana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hana.png; sourceTree = "<group>"; };
 		4EC7B32B526B12C695DA2A20 /* Pods_Untilet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Untilet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B8F62696A5D779B7423F77 /* Pods-UntiletUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UntiletUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UntiletUITests/Pods-UntiletUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B880483845E165EE2A06863 /* Pods-Untilet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Untilet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Untilet/Pods-Untilet.release.xcconfig"; sourceTree = "<group>"; };
@@ -141,6 +147,9 @@
 				DA3749481DEC713F000124CF /* ViewController.swift */,
 				DA37494A1DEC713F000124CF /* Main.storyboard */,
 				DA37494D1DEC713F000124CF /* Assets.xcassets */,
+				3F69C97A1DF2B17E0059FFAD /* hana.png */,
+				3F69C9781DF2A1E40059FFAD /* logo1.png */,
+				3F60B4311DF293C400170871 /* logo2.png */,
 				DA37494F1DEC713F000124CF /* LaunchScreen.storyboard */,
 				DA3749521DEC713F000124CF /* Info.plist */,
 			);
@@ -285,6 +294,9 @@
 				DA3749511DEC713F000124CF /* LaunchScreen.storyboard in Resources */,
 				DA37494E1DEC713F000124CF /* Assets.xcassets in Resources */,
 				DA37494C1DEC713F000124CF /* Main.storyboard in Resources */,
+				3F69C9791DF2A1E40059FFAD /* logo1.png in Resources */,
+				3F60B4321DF293C400170871 /* logo2.png in Resources */,
+				3F69C97B1DF2B17E0059FFAD /* hana.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

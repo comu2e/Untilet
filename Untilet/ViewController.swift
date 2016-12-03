@@ -20,7 +20,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         LoadAPI()
+        
+        
+    
     }
+    
 
     @IBOutlet weak var progressBar: KDCircularProgress!
     
@@ -113,5 +117,6 @@ class ViewController: UIViewController {
             return return_val
 
         }
+    
 }
 }
