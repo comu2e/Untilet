@@ -19,10 +19,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        LoadAPI()
-        
-        
-    
+        Load_Current_API()
     }
     
 
@@ -30,7 +27,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func LoadAPI_button(_ sender: AnyObject) {
-        LoadAPI()
+        Load_Current_API()
     }
     
     
@@ -53,6 +50,77 @@ class ViewController: UIViewController {
      JSONをパースする。
      最新要素だけを得てそこからパーセント表示する
      */
+    
+    //APIにある最新のデータのみが取り出されて表示される。
+    
+    //
+    func judge_value(value:Double) -> Double{
+        
+        let double_value:Double = Double(value)
+        
+        let point1:Double = 390
+        let point2:Double = 620
+        let point3:Double = 1023
+        
+        let percentage1:Double = 10
+        let percentage2:Double = 70
+        let percentage3:Double = 100
+        
+        let increment12:Double = (percentage2 - percentage1)/(point2 - point1)
+        let increment23:Double = (percentage3 - percentage2)/(point3 - point2)
+        
+        
+        var val:Double = 10
+        
+        if value < point1 {
+            val = percentage1
+        }
+        else if point1 <= value && value < point2 {
+            val =  percentage1 +  increment12 * (double_value - point1)
+            print("2")
+        }
+        else if point2 <= value && value <= point3 {
+            val = percentage2 + increment23 * (double_value - point2)
+        }
+        return val
+    }
+    
+    
+    func Load_Current_API(){
+        //HeaderはAPI key
+        let headers = [
+            "X-M2X-KEY": "9875a0904ad6ff8c46a0ed47dd1730c3",
+            ]
+        //APIURLはstreamに割り振られているAPI＿URLにする
+        
+        let API_URL = "https://api-m2x.att.com/v2/devices/a0b52f8541b7e2a4a35617d42f6efe5d/streams"
+        //start,endのパラメータは現時刻の時点にできるようにする
+        Alamofire.request(API_URL,method:.get,headers: headers).responseJSON{response in
+            if let jsonDict = response.result.value as! NSDictionary!{
+                print("==")
+//                print(jsonDict)
+                let latest_streams = jsonDict["streams"] as! NSArray
+//                print(latest_streams)
+                print("===")
+                let latest_value_dic = latest_streams[0] as! NSDictionary
+                
+                for i in latest_value_dic{
+                    print("==")
+                    print(i)
+                    print("**")
+                }
+                let value = latest_value_dic["value"] as! String
+                let value_double = Double(value)
+                print(value_double)
+                let judge_parcent = self.judge_value(value: value_double!)
+                print(judge_parcent)
+                self.valueLabel.text = Int(ceil(judge_parcent)).description
+            }
+            
+        }
+    }
+    
+    
     func LoadAPI(){
         let now = NSDate()
         let formatter = DateFormatter()
@@ -87,36 +155,23 @@ class ViewController: UIViewController {
             }
         
         }
-        func sample_bar(){
-            let progress = KDCircularProgress(frame: CGRect(x: 0, y: 0, width: 300, height: 300))
-            progress.startAngle = -90
-            progress.progressThickness = 0.2
-            progress.trackThickness = 0.6
-            progress.clockwise = true
-            progress.gradientRotateSpeed = 2
-            progress.roundedCorners = false
-            progress.glowMode = .forward
-            progress.glowAmount = 0.9
-            progress.set(colors: UIColor.cyan ,UIColor.white, UIColor.magenta, UIColor.white, UIColor.orange)
-            progress.center = CGPoint(x: view.center.x, y: view.center.y + 25)
-            view.addSubview(progress)
+     
+        
+        
+        func getNowClockString() -> (String,String) {
+            let formatter = DateFormatter()
+            formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss'Z'"
+            
+            let now = Date()
+            
+            //2min前までのデータを取り出すstart_time
+            let start_timeDate = NSDate(timeInterval: -60 * 2, since: now as Date)
+            let start_time = formatter.string(from:start_timeDate as Date)
+            //現在時刻
+            let end_time = formatter.string(from: now)
+            return (start_time,end_time)
         }
         
-        func judge_value(value:Int)->Int!{
-            var return_val:Int!
-            switch value{
-            case let v where v < 390:
-                return_val = 10
-            case let v where 390<v && v<630:
-                return_val =  10 * (value - 390) * 4/100
-            case let v where 630 <= v:
-                return_val =  70+(value-390) * 10/100
-            default:
-                print("error")
-            }
-            return return_val
 
-        }
-    
-}
+    }
 }
