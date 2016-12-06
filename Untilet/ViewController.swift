@@ -25,6 +25,9 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var progressBar: KDCircularProgress!
     
+    @IBAction func changeAngle_button(_ sender: UIButton) {
+        
+    }
     
     @IBAction func LoadAPI_button(_ sender: AnyObject) {
         Load_Current_API()
@@ -94,7 +97,6 @@ class ViewController: UIViewController {
         //APIURLはstreamに割り振られているAPI＿URLにする
         
         let API_URL = "https://api-m2x.att.com/v2/devices/a0b52f8541b7e2a4a35617d42f6efe5d/streams"
-        //start,endのパラメータは現時刻の時点にできるようにする
         Alamofire.request(API_URL,method:.get,headers: headers).responseJSON{response in
             if let jsonDict = response.result.value as! NSDictionary!{
                 print("==")
@@ -115,6 +117,10 @@ class ViewController: UIViewController {
                 let judge_parcent = self.judge_value(value: value_double!)
                 print(judge_parcent)
                 self.valueLabel.text = Int(ceil(judge_parcent)).description
+                
+                let newAngle = 360 * (judge_parcent / 100)
+                self.progressBar.angle = newAngle
+                
             }
             
         }
