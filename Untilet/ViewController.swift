@@ -36,6 +36,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var valueLabel: UILabel!
     
+    @IBOutlet weak var commentLabel: UILabel!
+    
     @IBAction func backHomeFromDiary(segue: UIStoryboardSegue) {
     }
     
@@ -124,9 +126,30 @@ class ViewController: UIViewController {
                 print(judge_parcent)
                 self.valueLabel.text = Int(ceil(judge_parcent)).description
                 
+                // ％を角度に変換
                 let newAngle = 360 * (judge_parcent / 100)
                 self.progressBar.angle = newAngle
                 
+                // 緩和時間予測
+                var smell:String = ""
+                
+                if judge_parcent <= 10 {
+                smell = "安全圏"
+                }
+                else if judge_parcent <= 30 {
+                smell = "安全圏まで後3分"
+                }
+                else if judge_parcent <= 50 {
+                smell = "安全圏まで後5分"
+                }
+                else if judge_parcent <= 70 {
+                smell = "安全圏まで後7分"
+                }
+                else if judge_parcent <= 100 {
+                smell = "安全圏まで後12分"
+                }
+                
+                self.commentLabel.text = smell
             }
             
         }

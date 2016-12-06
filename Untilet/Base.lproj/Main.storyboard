@@ -31,6 +31,13 @@
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="安全圏" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fw-8K-k12">
+                                        <frame key="frameInset" minX="23" minY="207" width="211" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" cyan="1" magenta="0.0038999999999999998" yellow="0.0118" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -49,7 +56,7 @@
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="angle">
-                                        <real key="value" value="0.0"/>
+                                        <real key="value" value="300"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="startAngle">
                                         <real key="value" value="-90"/>
@@ -174,6 +181,13 @@
                                     <constraint firstItem="mcx-rc-R4n" firstAttribute="leading" secondItem="fZw-Uo-VgX" secondAttribute="leading" constant="168" id="c2g-RD-G1S"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j0V-vl-fSK">
+                                <frame key="frameInset" minX="167" minY="545"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -195,6 +209,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="QIs-gO-gkY"/>
                     <connections>
+                        <outlet property="commentLabel" destination="9fw-8K-k12" id="Scg-6a-Vyi"/>
                         <outlet property="progressBar" destination="9fG-au-l0k" id="dsx-0t-OPu"/>
                         <outlet property="valueLabel" destination="yL2-O1-2Yi" id="sGO-8F-tZF"/>
                     </connections>
@@ -423,7 +438,7 @@
         <image name="timeline.png" width="104" height="104"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="2p8-mV-fyO"/>
         <segue reference="oNF-Ik-UCY"/>
+        <segue reference="2p8-mV-fyO"/>
     </inferredMetricsTieBreakers>
 </document>

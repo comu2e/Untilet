@@ -159,9 +159,9 @@
 			children = (
 				DA3749461DEC713F000124CF /* AppDelegate.swift */,
 				DA3749481DEC713F000124CF /* ViewController.swift */,
-				DA37494A1DEC713F000124CF /* Main.storyboard */,
 				3F7868381DF6A281007AF7D8 /* FriendViewController.swift */,
 				3F7868361DF68D0D007AF7D8 /* DiaryViewController.swift */,
+				DA37494A1DEC713F000124CF /* Main.storyboard */,
 				DA37494D1DEC713F000124CF /* Assets.xcassets */,
 				3FF768351DF5CE7500974C42 /* hito.png */,
 				3F7868301DF68254007AF7D8 /* diary.png */,
