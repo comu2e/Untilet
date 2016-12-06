@@ -94,7 +94,6 @@ class ViewController: UIViewController {
         //APIURLはstreamに割り振られているAPI＿URLにする
         
         let API_URL = "https://api-m2x.att.com/v2/devices/a0b52f8541b7e2a4a35617d42f6efe5d/streams"
-        //start,endのパラメータは現時刻の時点にできるようにする
         Alamofire.request(API_URL,method:.get,headers: headers).responseJSON{response in
             if let jsonDict = response.result.value as! NSDictionary!{
                 print("==")
