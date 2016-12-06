@@ -25,6 +25,9 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var progressBar: KDCircularProgress!
     
+    @IBAction func changeAngle_button(_ sender: UIButton) {
+        
+    }
     
     @IBAction func LoadAPI_button(_ sender: AnyObject) {
         Load_Current_API()
@@ -114,6 +117,10 @@ class ViewController: UIViewController {
                 let judge_parcent = self.judge_value(value: value_double!)
                 print(judge_parcent)
                 self.valueLabel.text = Int(ceil(judge_parcent)).description
+                
+                let newAngle = 360 * (judge_parcent / 100)
+                self.progressBar.angle = newAngle
+                
             }
             
         }
