@@ -251,7 +251,7 @@
 				TargetAttributes = {
 					DA3749421DEC713F000124CF = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 6N5NL3GL4U;
+						DevelopmentTeam = DY57NL82G4;
 						ProvisioningStyle = Automatic;
 					};
 					DA3749561DEC713F000124CF = {
@@ -613,7 +613,7 @@
 			baseConfigurationReference = 97E68ED40C56F32426F592DE /* Pods-Untilet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6N5NL3GL4U;
+				DEVELOPMENT_TEAM = DY57NL82G4;
 				INFOPLIST_FILE = Untilet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Untilet.Untilet;
@@ -627,7 +627,7 @@
 			baseConfigurationReference = 7B880483845E165EE2A06863 /* Pods-Untilet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6N5NL3GL4U;
+				DEVELOPMENT_TEAM = DY57NL82G4;
 				INFOPLIST_FILE = Untilet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Untilet.Untilet;
