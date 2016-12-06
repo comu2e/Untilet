@@ -68,8 +68,8 @@ class ViewController: UIViewController {
         
         let double_value:Double = Double(value)
         
-        let point1:Double = 390
-        let point2:Double = 620
+        let point1:Double = 270
+        let point2:Double = 500
         let point3:Double = 1023
         
         let percentage1:Double = 10
@@ -131,25 +131,21 @@ class ViewController: UIViewController {
                 self.progressBar.angle = newAngle
                 
                 // 緩和時間予測
+                
+                let relaxTime = 0.0016 * (judge_parcent *
+                    judge_parcent) * 10
+                
                 var smell:String = ""
                 
-                if judge_parcent <= 10 {
-                smell = "安全圏"
-                }
-                else if judge_parcent <= 30 {
-                smell = "安全圏まで後3分"
-                }
-                else if judge_parcent <= 50 {
-                smell = "安全圏まで後5分"
-                }
-                else if judge_parcent <= 70 {
-                smell = "安全圏まで後7分"
-                }
-                else if judge_parcent <= 100 {
-                smell = "安全圏まで後12分"
+                if judge_parcent <= 20 {
+                    smell = "安全圏"
                 }
                 
+                else if judge_parcent <= 100{
+                    smell = "安全圏まで\(ceil(relaxTime) / 10)分"
+                }
                 self.commentLabel.text = smell
+                
             }
             
         }
