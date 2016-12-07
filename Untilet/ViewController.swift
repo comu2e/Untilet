@@ -68,7 +68,7 @@ class ViewController: UIViewController {
         
         let double_value:Double = Double(value)
         
-        let point1:Double = 270
+        let point1:Double = 250
         let point2:Double = 500
         let point3:Double = 1023
         
