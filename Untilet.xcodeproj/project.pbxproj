@@ -19,6 +19,7 @@
 		3F7868351DF68B11007AF7D8 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7868341DF68B11007AF7D8 /* setting.png */; };
 		3F7868371DF68D0D007AF7D8 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7868361DF68D0D007AF7D8 /* DiaryViewController.swift */; };
 		3F7868391DF6A281007AF7D8 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7868381DF6A281007AF7D8 /* FriendViewController.swift */; };
+		3FE66D3D1DF92B08001B4DE5 /* untiletFriend.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE66D3C1DF92B08001B4DE5 /* untiletFriend.png */; };
 		3FF768361DF5CE7500974C42 /* hito.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF768351DF5CE7500974C42 /* hito.png */; };
 		578365424A3BD08911ADA832 /* Pods_UntiletTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E191E429D849ADFC5AAB82 /* Pods_UntiletTests.framework */; };
 		DA3749471DEC713F000124CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3749461DEC713F000124CF /* AppDelegate.swift */; };
@@ -60,6 +61,7 @@
 		3F7868341DF68B11007AF7D8 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
 		3F7868361DF68D0D007AF7D8 /* DiaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
 		3F7868381DF6A281007AF7D8 /* FriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		3FE66D3C1DF92B08001B4DE5 /* untiletFriend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = untiletFriend.png; sourceTree = "<group>"; };
 		3FF768351DF5CE7500974C42 /* hito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hito.png; sourceTree = "<group>"; };
 		4EC7B32B526B12C695DA2A20 /* Pods_Untilet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Untilet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B8F62696A5D779B7423F77 /* Pods-UntiletUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UntiletUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UntiletUITests/Pods-UntiletUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				3F69C97A1DF2B17E0059FFAD /* hana.png */,
 				3F69C9781DF2A1E40059FFAD /* logo1.png */,
 				3F60B4311DF293C400170871 /* logo2.png */,
+				3FE66D3C1DF92B08001B4DE5 /* untiletFriend.png */,
 				DA37494F1DEC713F000124CF /* LaunchScreen.storyboard */,
 				DA3749521DEC713F000124CF /* Info.plist */,
 			);
@@ -322,6 +325,7 @@
 				DA37494C1DEC713F000124CF /* Main.storyboard in Resources */,
 				3F35588C1DF87D28001D1F3C /* untiletDiary.png in Resources */,
 				3F7868351DF68B11007AF7D8 /* setting.png in Resources */,
+				3FE66D3D1DF92B08001B4DE5 /* untiletFriend.png in Resources */,
 				3F78682F1DF6824E007AF7D8 /* home.png in Resources */,
 				3F69C9791DF2A1E40059FFAD /* logo1.png in Resources */,
 				3F60B4321DF293C400170871 /* logo2.png in Resources */,
