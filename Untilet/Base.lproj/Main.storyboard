@@ -1029,6 +1029,87 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ppK-cQ-p7w">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ml3-wE-fbX">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="39" id="58z-SK-nid"/>
+                                            <constraint firstAttribute="height" constant="21" id="Qph-6d-42k"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.31372549019607843" green="0.34509803921568627" blue="0.37254901960784315" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12/19" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A9U-R5-w7t">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="46" id="kh1-2o-es2"/>
+                                            <constraint firstAttribute="width" constant="80" id="zOA-DK-HKQ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                        <color key="textColor" red="0.31372549019607843" green="0.34509803921568627" blue="0.37254901960784315" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="めちゃめちゃ臭いウンチが出たね" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uej-rz-D3g">
+                                        <frame key="frameInset" minX="77" minY="65" width="239" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="累計平均においレベル:68%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5m7-BP-kx1">
+                                        <frame key="frameInset" minX="81" minY="398" width="212" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="最高記録:87%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3X-g9-a5B">
+                                        <frame key="frameInset" minX="134" minY="427" width="107" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="untiletchou.png" translatesAutoresizingMaskIntoConstraints="NO" id="ihs-7v-PpR">
+                                        <frame key="frameInset" minX="82" minY="170" width="215" height="200"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="あなたの腸内年齢" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J03-ke-1CN">
+                                        <frame key="frameInset" minX="118" minY="149" width="139" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="45歳" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFi-Fs-eVU">
+                                        <frame key="frameInset" minX="153" minY="232" width="73" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="昨日は焼肉でも食べたのかな？" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SAP-Ao-t03">
+                                        <frame key="frameInset" minX="87" minY="87" width="218" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="471" id="2tI-qZ-3KO"/>
+                                    <constraint firstItem="Ml3-wE-fbX" firstAttribute="top" secondItem="ppK-cQ-p7w" secondAttribute="top" id="GjG-pC-S4K"/>
+                                    <constraint firstItem="A9U-R5-w7t" firstAttribute="leading" secondItem="ppK-cQ-p7w" secondAttribute="leading" constant="147" id="LwA-cv-W9f"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ml3-wE-fbX" secondAttribute="bottom" constant="450" id="SVa-VW-fVy"/>
+                                    <constraint firstAttribute="trailing" secondItem="A9U-R5-w7t" secondAttribute="trailing" constant="148" id="Zsm-f9-UqA"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ml3-wE-fbX" secondAttribute="trailing" constant="168" id="bwW-6T-c5h"/>
+                                    <constraint firstAttribute="width" constant="375" id="eo9-W0-VJD"/>
+                                    <constraint firstItem="Ml3-wE-fbX" firstAttribute="leading" secondItem="ppK-cQ-p7w" secondAttribute="leading" constant="168" id="rEh-DJ-R09"/>
+                                    <constraint firstAttribute="bottom" secondItem="A9U-R5-w7t" secondAttribute="bottom" constant="414" id="tOv-fR-7b9"/>
+                                    <constraint firstItem="A9U-R5-w7t" firstAttribute="top" secondItem="ppK-cQ-p7w" secondAttribute="top" constant="11" id="v1A-bj-bzW"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -1037,12 +1118,16 @@
                             <constraint firstItem="2DY-cx-KQK" firstAttribute="leading" secondItem="RcP-EB-Uzj" secondAttribute="trailing" constant="67" id="8o6-3y-RpG"/>
                             <constraint firstItem="2DY-cx-KQK" firstAttribute="top" secondItem="IVz-EM-ooN" secondAttribute="bottom" constant="24" id="ApN-3X-Yjz"/>
                             <constraint firstItem="4re-Dd-R9Y" firstAttribute="top" secondItem="2DY-cx-KQK" secondAttribute="bottom" constant="487" id="Dac-l3-GHg"/>
+                            <constraint firstItem="ppK-cQ-p7w" firstAttribute="top" secondItem="2DY-cx-KQK" secondAttribute="bottom" constant="8" id="E2z-kr-YVa"/>
                             <constraint firstAttribute="trailingMargin" secondItem="suo-80-wrd" secondAttribute="trailing" constant="137" id="EwK-sG-vCl"/>
                             <constraint firstItem="bDi-WV-DYr" firstAttribute="top" secondItem="4re-Dd-R9Y" secondAttribute="bottom" id="HPj-7K-PdQ"/>
+                            <constraint firstAttribute="trailing" secondItem="ppK-cQ-p7w" secondAttribute="trailing" id="LNU-iL-rWu"/>
                             <constraint firstAttribute="trailing" secondItem="4re-Dd-R9Y" secondAttribute="trailing" id="Phn-Lc-7vt"/>
                             <constraint firstItem="2DY-cx-KQK" firstAttribute="top" secondItem="IVz-EM-ooN" secondAttribute="bottom" constant="24" id="S8n-9k-1wa"/>
                             <constraint firstItem="IVz-EM-ooN" firstAttribute="leading" secondItem="cSm-lW-Vtd" secondAttribute="leading" id="Tf7-km-Mv6"/>
+                            <constraint firstItem="4re-Dd-R9Y" firstAttribute="top" secondItem="ppK-cQ-p7w" secondAttribute="bottom" constant="8" id="Vp6-Be-MjU"/>
                             <constraint firstItem="4re-Dd-R9Y" firstAttribute="leading" secondItem="cSm-lW-Vtd" secondAttribute="leading" id="VuO-hf-zJ7"/>
+                            <constraint firstItem="ppK-cQ-p7w" firstAttribute="leading" secondItem="cSm-lW-Vtd" secondAttribute="leading" id="Yay-1I-o7V"/>
                             <constraint firstItem="suo-80-wrd" firstAttribute="leading" secondItem="cSm-lW-Vtd" secondAttribute="leadingMargin" constant="137" id="ZqU-qo-N0B"/>
                             <constraint firstItem="4re-Dd-R9Y" firstAttribute="top" secondItem="RcP-EB-Uzj" secondAttribute="bottom" constant="487" id="aaS-gA-ukb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="2DY-cx-KQK" secondAttribute="trailing" constant="69" id="fs2-mk-cGQ"/>
@@ -1058,7 +1143,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hh7-Vv-BWn" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="pHR-aA-NT9" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2038" y="121"/>
+            <point key="canvasLocation" x="2037.5999999999999" y="120.98950524737631"/>
         </scene>
         <!--Friend View Controller-->
         <scene sceneID="T9R-20-Hi6">
@@ -1180,12 +1265,13 @@
         <image name="timeline.png" width="104" height="104"/>
         <image name="untiletDiary.png" width="317" height="406"/>
         <image name="untiletFriend.png" width="382" height="504"/>
+        <image name="untiletchou.png" width="446" height="444"/>
         <image name="untitledweek.png" width="369" height="405"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Mis-oV-Vj0"/>
-        <segue reference="cza-8B-BKr"/>
-        <segue reference="M3A-6a-sBQ"/>
-        <segue reference="s44-PJ-Ax6"/>
+        <segue reference="yER-Ze-l9C"/>
+        <segue reference="K1p-U8-cBw"/>
+        <segue reference="0sZ-tR-fQe"/>
+        <segue reference="2p8-mV-fyO"/>
     </inferredMetricsTieBreakers>
 </document>
