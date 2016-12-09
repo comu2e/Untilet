@@ -749,20 +749,21 @@
                                     <segue destination="ur0-Zm-E69" kind="show" animates="NO" id="M3A-6a-sBQ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="week" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jg0-fw-BDg">
-                                <frame key="frameInset" minX="166" minY="338" width="40" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="untitledweek.png" translatesAutoresizingMaskIntoConstraints="NO" id="7dG-ML-RPm">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="359" id="TG3-Jm-YNq"/>
+                                    <constraint firstAttribute="height" constant="397" id="yrP-fS-jNA"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="nEh-nG-jCZ" firstAttribute="top" secondItem="L8E-eR-t5k" secondAttribute="bottom" constant="24" id="6f2-N5-sdJ"/>
+                            <constraint firstItem="7dG-ML-RPm" firstAttribute="top" secondItem="nEh-nG-jCZ" secondAttribute="bottom" constant="8" id="BPi-aK-iSB"/>
                             <constraint firstItem="L8E-eR-t5k" firstAttribute="leading" secondItem="BpT-db-QTd" secondAttribute="leading" id="Cnv-9V-hbS"/>
                             <constraint firstItem="BWM-eR-8nM" firstAttribute="top" secondItem="L8E-eR-t5k" secondAttribute="bottom" constant="24" id="D8l-E1-VEe"/>
                             <constraint firstAttribute="trailingMargin" secondItem="BWM-eR-8nM" secondAttribute="trailing" constant="69" id="Ge4-g9-PxZ"/>
+                            <constraint firstAttribute="trailing" secondItem="7dG-ML-RPm" secondAttribute="trailing" constant="8" id="Gky-r2-Iyb"/>
                             <constraint firstItem="mIs-d3-Vom" firstAttribute="top" secondItem="L8E-eR-t5k" secondAttribute="bottom" constant="24" id="M0P-iK-xPk"/>
                             <constraint firstItem="nEh-nG-jCZ" firstAttribute="leading" secondItem="BpT-db-QTd" secondAttribute="leadingMargin" constant="69" id="OXo-1Z-Zz0"/>
                             <constraint firstAttribute="trailing" secondItem="L8E-eR-t5k" secondAttribute="trailing" id="OgK-6f-meD"/>
@@ -779,10 +780,12 @@
                             <constraint firstItem="BWM-eR-8nM" firstAttribute="leading" secondItem="nEh-nG-jCZ" secondAttribute="trailing" constant="67" id="eos-kr-gqb"/>
                             <constraint firstItem="pnr-cu-Agx" firstAttribute="top" secondItem="BWM-eR-8nM" secondAttribute="bottom" constant="487" id="jHx-pX-AGH"/>
                             <constraint firstItem="BWM-eR-8nM" firstAttribute="leading" secondItem="nEh-nG-jCZ" secondAttribute="trailing" constant="67" id="mJF-fq-g9G"/>
+                            <constraint firstItem="7dG-ML-RPm" firstAttribute="leading" secondItem="BpT-db-QTd" secondAttribute="leading" constant="8" id="okZ-Sn-Tvn"/>
                             <constraint firstItem="L8E-eR-t5k" firstAttribute="top" secondItem="BpT-db-QTd" secondAttribute="top" id="pLs-0E-Q8t"/>
                             <constraint firstItem="pnr-cu-Agx" firstAttribute="leading" secondItem="BpT-db-QTd" secondAttribute="leading" id="qrK-Sk-kPc"/>
                             <constraint firstItem="pnr-cu-Agx" firstAttribute="top" secondItem="nEh-nG-jCZ" secondAttribute="bottom" constant="487" id="r5b-KH-EcF"/>
                             <constraint firstItem="pnr-cu-Agx" firstAttribute="top" secondItem="L8E-eR-t5k" secondAttribute="bottom" constant="543" id="uJa-RR-9iW"/>
+                            <constraint firstItem="pnr-cu-Agx" firstAttribute="top" secondItem="7dG-ML-RPm" secondAttribute="bottom" constant="82" id="vhk-hW-HRH"/>
                             <constraint firstItem="L8E-eR-t5k" firstAttribute="top" secondItem="BpT-db-QTd" secondAttribute="top" id="wdY-0B-1Lx"/>
                             <constraint firstAttribute="trailing" secondItem="L8E-eR-t5k" secondAttribute="trailing" id="ymn-Pb-P8j"/>
                         </constraints>
@@ -1177,11 +1180,12 @@
         <image name="timeline.png" width="104" height="104"/>
         <image name="untiletDiary.png" width="317" height="406"/>
         <image name="untiletFriend.png" width="382" height="504"/>
+        <image name="untitledweek.png" width="369" height="405"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Mis-oV-Vj0"/>
-        <segue reference="0sZ-tR-fQe"/>
-        <segue reference="E36-ec-W2T"/>
+        <segue reference="cza-8B-BKr"/>
+        <segue reference="M3A-6a-sBQ"/>
         <segue reference="s44-PJ-Ax6"/>
     </inferredMetricsTieBreakers>
 </document>
