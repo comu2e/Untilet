@@ -148,6 +148,74 @@ class ViewController: UIViewController {
     }
     
     
+    func Load_Mirai_API(){
+        //Miraiのピッチ用
+        //注意事項
+        //①Button　ViewDidLoadの部分をLoad_current_APIと書き換える。
+        //②Arduino側も書き換えておく
+        //ARduinoの設定では
+        //DeviceID:4cd5ec82a8b2f839555cfb618d6dbad5
+        //PrimaryAPIKey:76bc32ad813883778b2b7fa95dbd4160
+        //streamID:MQ4
+        
+        //MiraiPitchM2XSetting.inoを使う
+        
+        //に設定する
+        
+        //HeaderはAPI key
+        let headers = [
+            "X-M2X-KEY": "76bc32ad813883778b2b7fa95dbd4160",
+            ]
+        //APIURLはstreamに割り振られているAPI＿URLにする
+        
+        let API_URL = "https://api-m2x.att.com/v2/devices/4cd5ec82a8b2f839555cfb618d6dbad5/streams"
+        Alamofire.request(API_URL,method:.get,headers: headers).responseJSON{response in
+            if let jsonDict = response.result.value as! NSDictionary!{
+                print("==")
+                //                print(jsonDict)
+                let latest_streams = jsonDict["streams"] as! NSArray
+                //                print(latest_streams)
+                print("===")
+                let latest_value_dic = latest_streams[0] as! NSDictionary
+                
+                for i in latest_value_dic{
+                    print("==")
+                    print(i)
+                    print("**")
+                }
+                let value = latest_value_dic["value"] as! String
+                let value_double = Double(value)
+                print(value_double)
+                let judge_parcent = self.judge_value(value: value_double!)
+                print(judge_parcent)
+                self.valueLabel.text = Int(ceil(judge_parcent)).description
+                
+                // ％を角度に変換
+                let newAngle = 360 * (judge_parcent / 100)
+                self.progressBar.angle = newAngle
+                
+                // 緩和時間予測
+                
+                let relaxTime = 0.0016 * (judge_parcent *
+                    judge_parcent) * 10
+                
+                var smell:String = ""
+                
+                if judge_parcent <= 20 {
+                    smell = "安全圏"
+                }
+                    
+                else if judge_parcent <= 100{
+                    smell = "安全圏まで\(ceil(relaxTime) / 10)分"
+                }
+                self.commentLabel.text = smell
+                
+            }
+            
+        }
+    }
+    
+
     func LoadAPI(){
         let now = NSDate()
         let formatter = DateFormatter()
