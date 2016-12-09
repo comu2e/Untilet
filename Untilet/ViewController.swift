@@ -38,10 +38,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var commentLabel: UILabel!
     
-    @IBAction func backHomeFromDiary(segue: UIStoryboardSegue) {
-    }
-    
-    @IBAction func backHomeFromFriend(segue: UIStoryboardSegue) {
+    @IBAction func backHome(segue: UIStoryboardSegue) {
     }
     
     override func didReceiveMemoryWarning() {
