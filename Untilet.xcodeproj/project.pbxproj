@@ -10,6 +10,7 @@
 		097B883384C6999E091994A5 /* Pods_UntiletUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3755E1CAA71F00CCF91F7E25 /* Pods_UntiletUITests.framework */; };
 		0BAB44DA6BAB06AB0F209EC3 /* Pods_Untilet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC7B32B526B12C695DA2A20 /* Pods_Untilet.framework */; };
 		3F301C311DFADA440066BC68 /* untitledweek.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F301C301DFADA440066BC68 /* untitledweek.png */; };
+		3F301C331DFAEBF00066BC68 /* untiletchou.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F301C321DFAEBF00066BC68 /* untiletchou.png */; };
 		3F35588C1DF87D28001D1F3C /* untiletDiary.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F35588B1DF87D28001D1F3C /* untiletDiary.png */; };
 		3F60B4321DF293C400170871 /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F60B4311DF293C400170871 /* logo2.png */; };
 		3F69C9791DF2A1E40059FFAD /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F69C9781DF2A1E40059FFAD /* logo1.png */; };
@@ -20,6 +21,9 @@
 		3F7868351DF68B11007AF7D8 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7868341DF68B11007AF7D8 /* setting.png */; };
 		3F7868371DF68D0D007AF7D8 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7868361DF68D0D007AF7D8 /* DiaryViewController.swift */; };
 		3F7868391DF6A281007AF7D8 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7868381DF6A281007AF7D8 /* FriendViewController.swift */; };
+		3FB160801DFED20C006EEAE9 /* untiletweek2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB1607F1DFED20C006EEAE9 /* untiletweek2.png */; };
+		3FB160821DFED214006EEAE9 /* untiletmonth2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB160811DFED214006EEAE9 /* untiletmonth2.png */; };
+		3FB160841DFED3D8006EEAE9 /* mimamori2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB160831DFED3D8006EEAE9 /* mimamori2.png */; };
 		3FDABE7E1DFA9B1500E0640E /* DiaryWeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDABE7D1DFA9B1500E0640E /* DiaryWeekViewController.swift */; };
 		3FDABE801DFA9E0D00E0640E /* DiaryDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDABE7F1DFA9E0D00E0640E /* DiaryDayViewController.swift */; };
 		3FE66D3D1DF92B08001B4DE5 /* untiletFriend.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE66D3C1DF92B08001B4DE5 /* untiletFriend.png */; };
@@ -55,6 +59,7 @@
 		30EF9FF0BA5E494C9529D531 /* Pods-UntiletUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UntiletUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UntiletUITests/Pods-UntiletUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3755E1CAA71F00CCF91F7E25 /* Pods_UntiletUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UntiletUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F301C301DFADA440066BC68 /* untitledweek.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = untitledweek.png; sourceTree = "<group>"; };
+		3F301C321DFAEBF00066BC68 /* untiletchou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = untiletchou.png; sourceTree = "<group>"; };
 		3F35588B1DF87D28001D1F3C /* untiletDiary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = untiletDiary.png; sourceTree = "<group>"; };
 		3F60B4311DF293C400170871 /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
 		3F69C9781DF2A1E40059FFAD /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
@@ -65,6 +70,9 @@
 		3F7868341DF68B11007AF7D8 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
 		3F7868361DF68D0D007AF7D8 /* DiaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
 		3F7868381DF6A281007AF7D8 /* FriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		3FB1607F1DFED20C006EEAE9 /* untiletweek2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = untiletweek2.png; sourceTree = "<group>"; };
+		3FB160811DFED214006EEAE9 /* untiletmonth2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = untiletmonth2.png; sourceTree = "<group>"; };
+		3FB160831DFED3D8006EEAE9 /* mimamori2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mimamori2.png; sourceTree = "<group>"; };
 		3FDABE7D1DFA9B1500E0640E /* DiaryWeekViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryWeekViewController.swift; sourceTree = "<group>"; };
 		3FDABE7F1DFA9E0D00E0640E /* DiaryDayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryDayViewController.swift; sourceTree = "<group>"; };
 		3FE66D3C1DF92B08001B4DE5 /* untiletFriend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = untiletFriend.png; sourceTree = "<group>"; };
@@ -175,7 +183,11 @@
 				3FDABE7F1DFA9E0D00E0640E /* DiaryDayViewController.swift */,
 				DA37494A1DEC713F000124CF /* Main.storyboard */,
 				DA37494D1DEC713F000124CF /* Assets.xcassets */,
+				3FB160831DFED3D8006EEAE9 /* mimamori2.png */,
+				3FB160811DFED214006EEAE9 /* untiletmonth2.png */,
+				3FB1607F1DFED20C006EEAE9 /* untiletweek2.png */,
 				3F301C301DFADA440066BC68 /* untitledweek.png */,
+				3F301C321DFAEBF00066BC68 /* untiletchou.png */,
 				3F35588B1DF87D28001D1F3C /* untiletDiary.png */,
 				3FF768351DF5CE7500974C42 /* hito.png */,
 				3F7868301DF68254007AF7D8 /* diary.png */,
@@ -327,13 +339,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB160821DFED214006EEAE9 /* untiletmonth2.png in Resources */,
 				3F301C311DFADA440066BC68 /* untitledweek.png in Resources */,
 				3F7868331DF68259007AF7D8 /* timeline.png in Resources */,
 				DA3749511DEC713F000124CF /* LaunchScreen.storyboard in Resources */,
 				DA37494E1DEC713F000124CF /* Assets.xcassets in Resources */,
 				3FF768361DF5CE7500974C42 /* hito.png in Resources */,
 				DA37494C1DEC713F000124CF /* Main.storyboard in Resources */,
+				3FB160801DFED20C006EEAE9 /* untiletweek2.png in Resources */,
 				3F35588C1DF87D28001D1F3C /* untiletDiary.png in Resources */,
+				3F301C331DFAEBF00066BC68 /* untiletchou.png in Resources */,
 				3F7868351DF68B11007AF7D8 /* setting.png in Resources */,
 				3FE66D3D1DF92B08001B4DE5 /* untiletFriend.png in Resources */,
 				3F78682F1DF6824E007AF7D8 /* home.png in Resources */,
@@ -341,6 +356,7 @@
 				3F60B4321DF293C400170871 /* logo2.png in Resources */,
 				3F7868311DF68254007AF7D8 /* diary.png in Resources */,
 				3F69C97B1DF2B17E0059FFAD /* hana.png in Resources */,
+				3FB160841DFED3D8006EEAE9 /* mimamori2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
