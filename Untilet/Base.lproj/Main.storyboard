@@ -1392,9 +1392,9 @@
         <image name="untiletweek2.png" width="744" height="893"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Mis-oV-Vj0"/>
         <segue reference="cza-8B-BKr"/>
-        <segue reference="E36-ec-W2T"/>
-        <segue reference="s44-PJ-Ax6"/>
+        <segue reference="oNF-Ik-UCY"/>
+        <segue reference="2p8-mV-fyO"/>
+        <segue reference="Mis-oV-Vj0"/>
     </inferredMetricsTieBreakers>
 </document>
