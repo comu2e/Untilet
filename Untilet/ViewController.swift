@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func LoadAPI_button(_ sender: AnyObject) {
-        Load_Current_API()
+        Load_Mirai_API()
     }
     
     
@@ -67,12 +67,12 @@ class ViewController: UIViewController {
         
         let double_value:Double = Double(value)
         
-        let point1:Double = 250
-        let point2:Double = 500
+        let point1:Double = 330
+        let point2:Double = 400
         let point3:Double = 1023
         
         let percentage1:Double = 10
-        let percentage2:Double = 70
+        let percentage2:Double = 80
         let percentage3:Double = 100
         
         let increment12:Double = (percentage2 - percentage1)/(point2 - point1)

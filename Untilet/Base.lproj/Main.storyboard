@@ -26,11 +26,6 @@
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8f1-uo-KsS">
-                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="33"/>
-                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="安全圏" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fw-8K-k12">
                                         <frame key="frameInset" minX="23" minY="207" width="211" height="37"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -38,21 +33,26 @@
                                         <color key="textColor" cyan="1" magenta="0.0038999999999999998" yellow="0.0118" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lv" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8f1-uo-KsS">
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="26"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="8f1-uo-KsS" secondAttribute="bottom" constant="141" id="ESL-ay-Oay"/>
+                                    <constraint firstAttribute="bottom" secondItem="8f1-uo-KsS" secondAttribute="bottom" constant="142" id="ESL-ay-Oay"/>
                                     <constraint firstAttribute="height" constant="321" id="GNH-Gv-Quh"/>
-                                    <constraint firstAttribute="trailing" secondItem="8f1-uo-KsS" secondAttribute="trailing" constant="71" id="M2e-uE-Q6M"/>
+                                    <constraint firstAttribute="trailing" secondItem="8f1-uo-KsS" secondAttribute="trailing" constant="161" id="M2e-uE-Q6M"/>
                                     <constraint firstAttribute="width" constant="258" id="V6v-YV-Cq8"/>
                                     <constraint firstItem="yL2-O1-2Yi" firstAttribute="centerX" secondItem="9fG-au-l0k" secondAttribute="centerX" id="b6i-z6-Awn"/>
                                     <constraint firstItem="yL2-O1-2Yi" firstAttribute="leading" secondItem="9fG-au-l0k" secondAttribute="leadingMargin" constant="14" id="cOf-4P-ega"/>
                                     <constraint firstItem="yL2-O1-2Yi" firstAttribute="centerX" secondItem="9fG-au-l0k" secondAttribute="centerX" id="eeQ-1O-BqO"/>
-                                    <constraint firstItem="8f1-uo-KsS" firstAttribute="leading" secondItem="9fG-au-l0k" secondAttribute="leading" constant="158" id="fOn-vp-qWt"/>
+                                    <constraint firstItem="8f1-uo-KsS" firstAttribute="leading" secondItem="9fG-au-l0k" secondAttribute="leading" constant="67" id="fOn-vp-qWt"/>
                                     <constraint firstItem="yL2-O1-2Yi" firstAttribute="centerY" secondItem="9fG-au-l0k" secondAttribute="centerY" id="lfT-3X-Wo4"/>
                                     <constraint firstAttribute="trailingMargin" secondItem="yL2-O1-2Yi" secondAttribute="trailing" constant="14" id="pSp-Dd-aC1"/>
                                     <constraint firstItem="yL2-O1-2Yi" firstAttribute="centerY" secondItem="9fG-au-l0k" secondAttribute="centerY" id="qge-gp-LvW"/>
-                                    <constraint firstItem="8f1-uo-KsS" firstAttribute="top" secondItem="9fG-au-l0k" secondAttribute="top" constant="140" id="tWE-Jc-gGv"/>
+                                    <constraint firstItem="8f1-uo-KsS" firstAttribute="top" secondItem="9fG-au-l0k" secondAttribute="top" constant="156" id="tWE-Jc-gGv"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="angle">
