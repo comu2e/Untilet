@@ -13,6 +13,8 @@
 		3F301C331DFAEBF00066BC68 /* untiletchou.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F301C321DFAEBF00066BC68 /* untiletchou.png */; };
 		3F35588C1DF87D28001D1F3C /* untiletDiary.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F35588B1DF87D28001D1F3C /* untiletDiary.png */; };
 		3F3BE3201E337D210097BC83 /* 腸イラスト①.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3BE31F1E337D210097BC83 /* 腸イラスト①.png */; };
+		3F3BE3221E33845F0097BC83 /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3BE3211E33845F0097BC83 /* TitleViewController.swift */; };
+		3F3BE3281E3389030097BC83 /* mailntoilet.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F3BE3271E3389030097BC83 /* mailntoilet.jpeg */; };
 		3F60B4321DF293C400170871 /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F60B4311DF293C400170871 /* logo2.png */; };
 		3F69C9791DF2A1E40059FFAD /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F69C9781DF2A1E40059FFAD /* logo1.png */; };
 		3F69C97B1DF2B17E0059FFAD /* hana.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F69C97A1DF2B17E0059FFAD /* hana.png */; };
@@ -63,6 +65,8 @@
 		3F301C321DFAEBF00066BC68 /* untiletchou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = untiletchou.png; sourceTree = "<group>"; };
 		3F35588B1DF87D28001D1F3C /* untiletDiary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = untiletDiary.png; sourceTree = "<group>"; };
 		3F3BE31F1E337D210097BC83 /* 腸イラスト①.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "腸イラスト①.png"; sourceTree = "<group>"; };
+		3F3BE3211E33845F0097BC83 /* TitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
+		3F3BE3271E3389030097BC83 /* mailntoilet.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mailntoilet.jpeg; sourceTree = "<group>"; };
 		3F60B4311DF293C400170871 /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
 		3F69C9781DF2A1E40059FFAD /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
 		3F69C97A1DF2B17E0059FFAD /* hana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hana.png; sourceTree = "<group>"; };
@@ -178,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				DA3749461DEC713F000124CF /* AppDelegate.swift */,
+				3F3BE3211E33845F0097BC83 /* TitleViewController.swift */,
 				DA3749481DEC713F000124CF /* ViewController.swift */,
 				3F7868381DF6A281007AF7D8 /* FriendViewController.swift */,
 				3F7868361DF68D0D007AF7D8 /* DiaryViewController.swift */,
@@ -185,6 +190,7 @@
 				3FDABE7F1DFA9E0D00E0640E /* DiaryDayViewController.swift */,
 				DA37494A1DEC713F000124CF /* Main.storyboard */,
 				DA37494D1DEC713F000124CF /* Assets.xcassets */,
+				3F3BE3271E3389030097BC83 /* mailntoilet.jpeg */,
 				3FB160831DFED3D8006EEAE9 /* mimamori2.png */,
 				3FB160811DFED214006EEAE9 /* untiletmonth2.png */,
 				3FB1607F1DFED20C006EEAE9 /* untiletweek2.png */,
@@ -344,6 +350,7 @@
 			files = (
 				3FB160821DFED214006EEAE9 /* untiletmonth2.png in Resources */,
 				3F301C311DFADA440066BC68 /* untitledweek.png in Resources */,
+				3F3BE3281E3389030097BC83 /* mailntoilet.jpeg in Resources */,
 				3F7868331DF68259007AF7D8 /* timeline.png in Resources */,
 				DA3749511DEC713F000124CF /* LaunchScreen.storyboard in Resources */,
 				DA37494E1DEC713F000124CF /* Assets.xcassets in Resources */,
@@ -526,6 +533,7 @@
 				3F7868391DF6A281007AF7D8 /* FriendViewController.swift in Sources */,
 				3FDABE801DFA9E0D00E0640E /* DiaryDayViewController.swift in Sources */,
 				DA3749491DEC713F000124CF /* ViewController.swift in Sources */,
+				3F3BE3221E33845F0097BC83 /* TitleViewController.swift in Sources */,
 				3FDABE7E1DFA9B1500E0640E /* DiaryWeekViewController.swift in Sources */,
 				3F7868371DF68D0D007AF7D8 /* DiaryViewController.swift in Sources */,
 				DA3749471DEC713F000124CF /* AppDelegate.swift in Sources */,

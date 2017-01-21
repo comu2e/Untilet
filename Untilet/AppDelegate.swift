@@ -63,8 +63,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.layer.borderColor = borderColor.cgColor
         self.layer.borderWidth = borderWidth
         
+        
         super.draw(rect)
     }
+    
+        
 }
 
 
