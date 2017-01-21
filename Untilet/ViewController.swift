@@ -187,7 +187,7 @@ class ViewController: UIViewController {
                 }
                 let value = latest_value_dic["value"] as! String
                 let value_double = Double(value)
-                print(value_double)
+                print(value_double!)
                 let judge_parcent = self.judge_value(value: value_double!)
                 print(judge_parcent)
                 self.valueLabel.text = Int(ceil(judge_parcent)).description

@@ -12,6 +12,7 @@
 		3F301C311DFADA440066BC68 /* untitledweek.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F301C301DFADA440066BC68 /* untitledweek.png */; };
 		3F301C331DFAEBF00066BC68 /* untiletchou.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F301C321DFAEBF00066BC68 /* untiletchou.png */; };
 		3F35588C1DF87D28001D1F3C /* untiletDiary.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F35588B1DF87D28001D1F3C /* untiletDiary.png */; };
+		3F3BE3201E337D210097BC83 /* 腸イラスト①.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3BE31F1E337D210097BC83 /* 腸イラスト①.png */; };
 		3F60B4321DF293C400170871 /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F60B4311DF293C400170871 /* logo2.png */; };
 		3F69C9791DF2A1E40059FFAD /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F69C9781DF2A1E40059FFAD /* logo1.png */; };
 		3F69C97B1DF2B17E0059FFAD /* hana.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F69C97A1DF2B17E0059FFAD /* hana.png */; };
@@ -61,6 +62,7 @@
 		3F301C301DFADA440066BC68 /* untitledweek.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = untitledweek.png; sourceTree = "<group>"; };
 		3F301C321DFAEBF00066BC68 /* untiletchou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = untiletchou.png; sourceTree = "<group>"; };
 		3F35588B1DF87D28001D1F3C /* untiletDiary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = untiletDiary.png; sourceTree = "<group>"; };
+		3F3BE31F1E337D210097BC83 /* 腸イラスト①.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "腸イラスト①.png"; sourceTree = "<group>"; };
 		3F60B4311DF293C400170871 /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
 		3F69C9781DF2A1E40059FFAD /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
 		3F69C97A1DF2B17E0059FFAD /* hana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hana.png; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				3FB160811DFED214006EEAE9 /* untiletmonth2.png */,
 				3FB1607F1DFED20C006EEAE9 /* untiletweek2.png */,
 				3F301C301DFADA440066BC68 /* untitledweek.png */,
+				3F3BE31F1E337D210097BC83 /* 腸イラスト①.png */,
 				3F301C321DFAEBF00066BC68 /* untiletchou.png */,
 				3F35588B1DF87D28001D1F3C /* untiletDiary.png */,
 				3FF768351DF5CE7500974C42 /* hito.png */,
@@ -294,7 +297,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Eiji Takahashi";
 				TargetAttributes = {
 					DA3749421DEC713F000124CF = {
@@ -351,6 +354,7 @@
 				3F301C331DFAEBF00066BC68 /* untiletchou.png in Resources */,
 				3F7868351DF68B11007AF7D8 /* setting.png in Resources */,
 				3FE66D3D1DF92B08001B4DE5 /* untiletFriend.png in Resources */,
+				3F3BE3201E337D210097BC83 /* 腸イラスト①.png in Resources */,
 				3F78682F1DF6824E007AF7D8 /* home.png in Resources */,
 				3F69C9791DF2A1E40059FFAD /* logo1.png in Resources */,
 				3F60B4321DF293C400170871 /* logo2.png in Resources */,
@@ -597,6 +601,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -619,7 +624,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -647,6 +652,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -663,7 +669,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
